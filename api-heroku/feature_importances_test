@@ -1,0 +1,751 @@
+feature,importance
+AMT_ANNUITY,328
+AMT_CREDIT,186
+AMT_INCOME_TOTAL,136
+AMT_REQ_CREDIT_BUREAU_DAY,0
+AMT_REQ_CREDIT_BUREAU_HOUR,0
+AMT_REQ_CREDIT_BUREAU_MON,10
+AMT_REQ_CREDIT_BUREAU_QRT,27
+AMT_REQ_CREDIT_BUREAU_WEEK,3
+AMT_REQ_CREDIT_BUREAU_YEAR,29
+APARTMENTS_AVG,129
+BASEMENTAREA_AVG,106
+CNT_CHILDREN,7
+CNT_FAM_MEMBERS,8
+CODE_GENDER,90
+COMMONAREA_AVG,88
+COUNT(bureau),89
+COUNT(bureau_balance),38
+COUNT(cash),49
+COUNT(credit),9
+COUNT(installments),32
+COUNT(previous),14
+CREDIT_TO_ANNUITY_RATIO,556
+CREDIT_TO_ANNUITY_RATIO_BY_AGE,180
+DAYS_BIRTH,366
+DAYS_EMPLOYED,433
+DAYS_ID_PUBLISH,264
+DAYS_LAST_PHONE_CHANGE,192
+DAYS_REGISTRATION,233
+DEF_30_CNT_SOCIAL_CIRCLE,44
+DEF_60_CNT_SOCIAL_CIRCLE,38
+ELEVATORS_AVG,24
+ENTRANCES_AVG,59
+EXT_SOURCE_1,583
+EXT_SOURCE_2,634
+EXT_SOURCE_3,595
+FLAG_DOCUMENT_11,0
+FLAG_DOCUMENT_13,0
+FLAG_DOCUMENT_14,0
+FLAG_DOCUMENT_16,11
+FLAG_DOCUMENT_18,10
+FLAG_DOCUMENT_3,43
+FLAG_DOCUMENT_5,0
+FLAG_DOCUMENT_6,5
+FLAG_DOCUMENT_8,3
+FLAG_EMAIL,4
+FLAG_OWN_CAR,3
+FLAG_OWN_REALTY,8
+FLAG_PHONE,8
+FLAG_WORK_PHONE,26
+FLOORSMAX_AVG,51
+FLOORSMIN_AVG,42
+FONDKAPREMONT_MODE_not specified,3
+FONDKAPREMONT_MODE_org spec account,4
+FONDKAPREMONT_MODE_reg oper account,0
+FONDKAPREMONT_MODE_reg oper spec account,1
+HOUR_APPR_PROCESS_START,77
+HOUSETYPE_MODE_specific housing,4
+INCOME_TO_CREDIT_RATIO,230
+INCOME_TO_FAMILYSIZE_RATIO,122
+LANDAREA_AVG,122
+LIVE_CITY_NOT_WORK_CITY,8
+LIVE_REGION_NOT_WORK_REGION,3
+MAX(bureau.AMT_ANNUITY),52
+MAX(bureau.AMT_CREDIT_MAX_OVERDUE),265
+MAX(bureau.AMT_CREDIT_SUM),163
+MAX(bureau.AMT_CREDIT_SUM_DEBT),167
+MAX(bureau.AMT_CREDIT_SUM_LIMIT),71
+MAX(bureau.AMT_CREDIT_SUM_OVERDUE),27
+MAX(bureau.CNT_CREDIT_PROLONG),1
+MAX(bureau.COUNT(bureau_balance)),55
+MAX(bureau.CREDIT_DAY_OVERDUE),5
+MAX(bureau.DAYS_CREDIT),314
+MAX(bureau.DAYS_CREDIT_ENDDATE),224
+MAX(bureau.DAYS_CREDIT_UPDATE),154
+MAX(bureau.DAYS_ENDDATE_FACT),222
+MAX(bureau_balance.MONTHS_BALANCE),11
+MAX(cash.CNT_INSTALMENT),27
+MAX(cash.MONTHS_BALANCE),21
+MAX(cash.SK_DPD),41
+MAX(cash.SK_DPD_DEF),25
+MAX(cash.SK_ID_CURR),156
+MAX(cash.previous.AMT_ANNUITY),82
+MAX(cash.previous.AMT_APPLICATION),74
+MAX(cash.previous.DAYS_FIRST_DUE),110
+MAX(cash.previous.DAYS_LAST_DUE),94
+MAX(cash.previous.DAYS_LAST_DUE_1ST_VERSION),159
+MAX(cash.previous.HOUR_APPR_PROCESS_START),59
+MAX(credit.AMT_BALANCE),55
+MAX(credit.AMT_CREDIT_LIMIT_ACTUAL),25
+MAX(credit.AMT_DRAWINGS_CURRENT),28
+MAX(credit.CNT_DRAWINGS_CURRENT),68
+MAX(credit.CNT_INSTALMENT_MATURE_CUM),21
+MAX(credit.MONTHS_BALANCE),5
+MAX(credit.SK_DPD),10
+MAX(credit.SK_DPD_DEF),3
+MAX(credit.previous.AMT_APPLICATION),15
+MAX(credit.previous.DAYS_LAST_DUE),14
+MAX(credit.previous.DAYS_TERMINATION),8
+MAX(credit.previous.HOUR_APPR_PROCESS_START),20
+MAX(credit.previous.SELLERPLACE_AREA),28
+MAX(installments.AMT_INSTALMENT),98
+MAX(installments.DAYS_ENTRY_PAYMENT),148
+MAX(installments.NUM_INSTALMENT_NUMBER),52
+MAX(installments.NUM_INSTALMENT_VERSION),38
+MAX(installments.previous.DAYS_FIRST_DUE),72
+MAX(installments.previous.DAYS_LAST_DUE),34
+MAX(previous.AMT_ANNUITY),67
+MAX(previous.AMT_APPLICATION),78
+MAX(previous.AMT_DOWN_PAYMENT),100
+MAX(previous.CNT_PAYMENT),29
+MAX(previous.COUNT(cash)),30
+MAX(previous.DAYS_DECISION),106
+MAX(previous.DAYS_FIRST_DUE),78
+MAX(previous.DAYS_LAST_DUE),26
+MAX(previous.DAYS_LAST_DUE_1ST_VERSION),60
+MAX(previous.HOUR_APPR_PROCESS_START),63
+MAX(previous.MEAN(installments.AMT_INSTALMENT)),77
+MAX(previous.MEDIAN(cash.SK_DPD_DEF)),0
+MAX(previous.MIN(cash.CNT_INSTALMENT)),26
+MAX(previous.MIN(cash.CNT_INSTALMENT_FUTURE)),94
+MAX(previous.MIN(installments.NUM_INSTALMENT_VERSION)),0
+MAX(previous.NFLAG_INSURED_ON_APPROVAL),2
+MAX(previous.RATE_DOWN_PAYMENT),120
+MAX(previous.SELLERPLACE_AREA),140
+MAX(previous.SUM(cash.CNT_INSTALMENT)),45
+MAX(previous.SUM(cash.MONTHS_BALANCE)),30
+MAX(previous.SUM(cash.SK_ID_CURR)),95
+MAX(previous.SUM(credit.MONTHS_BALANCE)),0
+MAX(previous.SUM(installments.AMT_INSTALMENT)),77
+MAX(previous.SUM(installments.DAYS_ENTRY_PAYMENT)),32
+MAX(previous.SUM(installments.NUM_INSTALMENT_VERSION)),62
+MAX(previous.SUM(installments.SK_ID_CURR)),86
+MEAN(bureau.AMT_ANNUITY),33
+MEAN(bureau.AMT_CREDIT_SUM),224
+MEAN(bureau.AMT_CREDIT_SUM_DEBT),192
+MEAN(bureau.AMT_CREDIT_SUM_LIMIT),65
+MEAN(bureau.AMT_CREDIT_SUM_OVERDUE),17
+MEAN(bureau.CNT_CREDIT_PROLONG),11
+MEAN(bureau.CREDIT_DAY_OVERDUE),6
+MEAN(bureau.DAYS_CREDIT),174
+MEAN(bureau.DAYS_CREDIT_ENDDATE),121
+MEAN(bureau.DAYS_CREDIT_UPDATE),118
+MEAN(bureau.DAYS_ENDDATE_FACT),129
+MEAN(bureau.MAX(bureau_balance.MONTHS_BALANCE)),56
+MEAN(bureau_balance.MONTHS_BALANCE),59
+MEAN(bureau_balance.bureau.AMT_CREDIT_SUM_OVERDUE),7
+MEAN(cash.CNT_INSTALMENT),83
+MEAN(cash.MONTHS_BALANCE),53
+MEAN(cash.SK_DPD),40
+MEAN(cash.SK_DPD_DEF),79
+MEAN(cash.previous.AMT_ANNUITY),103
+MEAN(cash.previous.AMT_APPLICATION),70
+MEAN(cash.previous.DAYS_FIRST_DUE),48
+MEAN(cash.previous.DAYS_LAST_DUE),61
+MEAN(cash.previous.DAYS_LAST_DUE_1ST_VERSION),82
+MEAN(cash.previous.NFLAG_LAST_APPL_IN_DAY),1
+MEAN(credit.AMT_BALANCE),105
+MEAN(credit.AMT_DRAWINGS_CURRENT),43
+MEAN(credit.CNT_DRAWINGS_CURRENT),106
+MEAN(credit.SK_DPD_DEF),30
+MEAN(installments.AMT_INSTALMENT),64
+MEAN(installments.NUM_INSTALMENT_NUMBER),69
+MEAN(installments.NUM_INSTALMENT_VERSION),117
+MEAN(installments.previous.CNT_PAYMENT),70
+MEAN(installments.previous.DAYS_FIRST_DUE),54
+MEAN(installments.previous.DAYS_LAST_DUE),70
+MEAN(installments.previous.DAYS_TERMINATION),59
+MEAN(previous.AMT_ANNUITY),93
+MEAN(previous.AMT_APPLICATION),91
+MEAN(previous.AMT_DOWN_PAYMENT),102
+MEAN(previous.CNT_PAYMENT),138
+MEAN(previous.COUNT(cash)),79
+MEAN(previous.COUNT(credit)),18
+MEAN(previous.COUNT(installments)),63
+MEAN(previous.DAYS_DECISION),94
+MEAN(previous.DAYS_FIRST_DRAWING),10
+MEAN(previous.DAYS_FIRST_DUE),54
+MEAN(previous.DAYS_LAST_DUE),52
+MEAN(previous.DAYS_LAST_DUE_1ST_VERSION),63
+MEAN(previous.HOUR_APPR_PROCESS_START),134
+MEAN(previous.MAX(cash.SK_DPD)),35
+MEAN(previous.MAX(cash.SK_DPD_DEF)),55
+MEAN(previous.MAX(installments.AMT_INSTALMENT)),99
+MEAN(previous.MAX(installments.NUM_INSTALMENT_NUMBER)),65
+MEAN(previous.MAX(installments.NUM_INSTALMENT_VERSION)),40
+MEAN(previous.MEAN(installments.AMT_INSTALMENT)),64
+MEAN(previous.MEAN(installments.NUM_INSTALMENT_NUMBER)),58
+MEAN(previous.MEDIAN(cash.SK_DPD_DEF)),2
+MEAN(previous.MIN(cash.CNT_INSTALMENT)),64
+MEAN(previous.MIN(cash.CNT_INSTALMENT_FUTURE)),84
+MEAN(previous.MIN(installments.NUM_INSTALMENT_VERSION)),8
+MEAN(previous.NFLAG_INSURED_ON_APPROVAL),42
+MEAN(previous.NFLAG_LAST_APPL_IN_DAY),6
+MEAN(previous.RATE_DOWN_PAYMENT),102
+MEAN(previous.SELLERPLACE_AREA),179
+MEAN(previous.SUM(cash.CNT_INSTALMENT)),61
+MEAN(previous.SUM(cash.MONTHS_BALANCE)),86
+MEAN(previous.SUM(cash.SK_DPD)),41
+MEAN(previous.SUM(cash.SK_ID_CURR)),109
+MEAN(previous.SUM(credit.AMT_BALANCE)),11
+MEAN(previous.SUM(credit.AMT_CREDIT_LIMIT_ACTUAL)),17
+MEAN(previous.SUM(credit.AMT_DRAWINGS_ATM_CURRENT)),20
+MEAN(previous.SUM(credit.AMT_DRAWINGS_CURRENT)),14
+MEAN(previous.SUM(credit.AMT_DRAWINGS_OTHER_CURRENT)),5
+MEAN(previous.SUM(credit.AMT_DRAWINGS_POS_CURRENT)),34
+MEAN(previous.SUM(credit.CNT_DRAWINGS_ATM_CURRENT)),33
+MEAN(previous.SUM(credit.CNT_DRAWINGS_CURRENT)),9
+MEAN(previous.SUM(credit.CNT_DRAWINGS_OTHER_CURRENT)),2
+MEAN(previous.SUM(credit.CNT_INSTALMENT_MATURE_CUM)),13
+MEAN(previous.SUM(credit.SK_DPD)),12
+MEAN(previous.SUM(credit.SK_DPD_DEF)),7
+MEAN(previous.SUM(installments.AMT_INSTALMENT)),98
+MEAN(previous.SUM(installments.DAYS_ENTRY_PAYMENT)),56
+MEAN(previous.SUM(installments.NUM_INSTALMENT_NUMBER)),50
+MEAN(previous.SUM(installments.NUM_INSTALMENT_VERSION)),61
+MEAN(previous.SUM(installments.SK_ID_CURR)),87
+MEDIAN(bureau.AMT_ANNUITY),34
+MEDIAN(bureau.AMT_CREDIT_SUM_DEBT),88
+MEDIAN(bureau.AMT_CREDIT_SUM_LIMIT),9
+MEDIAN(bureau.AMT_CREDIT_SUM_OVERDUE),0
+MEDIAN(bureau.CNT_CREDIT_PROLONG),0
+MEDIAN(bureau.DAYS_CREDIT_ENDDATE),227
+MEDIAN(bureau.MAX(bureau_balance.MONTHS_BALANCE)),26
+MEDIAN(bureau_balance.bureau.AMT_CREDIT_SUM),117
+MEDIAN(bureau_balance.bureau.AMT_CREDIT_SUM_DEBT),17
+MEDIAN(bureau_balance.bureau.AMT_CREDIT_SUM_LIMIT),2
+MEDIAN(bureau_balance.bureau.DAYS_CREDIT_ENDDATE),70
+MEDIAN(cash.CNT_INSTALMENT),25
+MEDIAN(cash.SK_DPD_DEF),0
+MEDIAN(cash.previous.AMT_APPLICATION),86
+MEDIAN(cash.previous.DAYS_LAST_DUE),64
+MEDIAN(cash.previous.DAYS_LAST_DUE_1ST_VERSION),91
+MEDIAN(cash.previous.NFLAG_INSURED_ON_APPROVAL),16
+MEDIAN(credit.AMT_DRAWINGS_CURRENT),20
+MEDIAN(credit.AMT_PAYMENT_TOTAL_CURRENT),37
+MEDIAN(installments.AMT_INSTALMENT),98
+MEDIAN(installments.NUM_INSTALMENT_VERSION),4
+MEDIAN(installments.previous.AMT_APPLICATION),77
+MEDIAN(installments.previous.DAYS_FIRST_DUE),92
+MEDIAN(installments.previous.DAYS_LAST_DUE),72
+MEDIAN(installments.previous.NFLAG_INSURED_ON_APPROVAL),9
+MEDIAN(installments.previous.NFLAG_LAST_APPL_IN_DAY),0
+MEDIAN(previous.AMT_APPLICATION),121
+MEDIAN(previous.COUNT(credit)),1
+MEDIAN(previous.COUNT(installments)),21
+MEDIAN(previous.DAYS_FIRST_DRAWING),0
+MEDIAN(previous.DAYS_FIRST_DUE),65
+MEDIAN(previous.DAYS_LAST_DUE),60
+MEDIAN(previous.DAYS_LAST_DUE_1ST_VERSION),104
+MEDIAN(previous.MAX(installments.AMT_INSTALMENT)),121
+MEDIAN(previous.MEAN(installments.AMT_INSTALMENT)),65
+MEDIAN(previous.MEAN(installments.NUM_INSTALMENT_NUMBER)),72
+MEDIAN(previous.MIN(cash.CNT_INSTALMENT_FUTURE)),27
+MEDIAN(previous.SUM(cash.CNT_INSTALMENT)),63
+MEDIAN(previous.SUM(cash.SK_DPD_DEF)),12
+MEDIAN(previous.SUM(credit.AMT_BALANCE)),5
+MEDIAN(previous.SUM(credit.AMT_CREDIT_LIMIT_ACTUAL)),4
+MEDIAN(previous.SUM(credit.AMT_DRAWINGS_ATM_CURRENT)),3
+MEDIAN(previous.SUM(credit.AMT_DRAWINGS_CURRENT)),3
+MEDIAN(previous.SUM(credit.AMT_DRAWINGS_POS_CURRENT)),3
+MEDIAN(previous.SUM(credit.CNT_DRAWINGS_ATM_CURRENT)),3
+MEDIAN(previous.SUM(credit.CNT_DRAWINGS_CURRENT)),0
+MEDIAN(previous.SUM(credit.CNT_INSTALMENT_MATURE_CUM)),3
+MEDIAN(previous.SUM(credit.SK_DPD_DEF)),0
+MEDIAN(previous.SUM(installments.AMT_INSTALMENT)),87
+MEDIAN(previous.SUM(installments.DAYS_ENTRY_PAYMENT)),67
+MEDIAN(previous.SUM(installments.NUM_INSTALMENT_NUMBER)),38
+MEDIAN(previous.SUM(installments.NUM_INSTALMENT_VERSION)),46
+MEDIAN(previous.SUM(installments.SK_ID_CURR)),66
+MIN(bureau.AMT_ANNUITY),25
+MIN(bureau.AMT_CREDIT_SUM),174
+MIN(bureau.AMT_CREDIT_SUM_DEBT),48
+MIN(bureau.AMT_CREDIT_SUM_LIMIT),7
+MIN(bureau.CNT_CREDIT_PROLONG),0
+MIN(bureau.DAYS_CREDIT),152
+MIN(bureau.DAYS_CREDIT_ENDDATE),118
+MIN(bureau.DAYS_CREDIT_UPDATE),116
+MIN(bureau.DAYS_ENDDATE_FACT),133
+MIN(bureau.MAX(bureau_balance.MONTHS_BALANCE)),14
+MIN(bureau.MEAN(bureau_balance.MONTHS_BALANCE)),54
+MIN(cash.CNT_INSTALMENT),34
+MIN(cash.CNT_INSTALMENT_FUTURE),13
+MIN(cash.previous.AMT_ANNUITY),86
+MIN(cash.previous.AMT_APPLICATION),75
+MIN(cash.previous.HOUR_APPR_PROCESS_START),53
+MIN(cash.previous.NFLAG_INSURED_ON_APPROVAL),2
+MIN(credit.AMT_BALANCE),29
+MIN(credit.AMT_CREDIT_LIMIT_ACTUAL),19
+MIN(credit.AMT_DRAWINGS_CURRENT),3
+MIN(credit.AMT_INST_MIN_REGULARITY),2
+MIN(credit.AMT_PAYMENT_TOTAL_CURRENT),1
+MIN(credit.CNT_DRAWINGS_CURRENT),1
+MIN(installments.AMT_INSTALMENT),163
+MIN(installments.previous.CNT_PAYMENT),12
+MIN(previous.AMT_ANNUITY),107
+MIN(previous.AMT_APPLICATION),67
+MIN(previous.AMT_DOWN_PAYMENT),55
+MIN(previous.AMT_GOODS_PRICE),88
+MIN(previous.CNT_PAYMENT),31
+MIN(previous.COUNT(cash)),10
+MIN(previous.COUNT(installments)),10
+MIN(previous.DAYS_DECISION),75
+MIN(previous.DAYS_FIRST_DRAWING),7
+MIN(previous.DAYS_FIRST_DUE),54
+MIN(previous.DAYS_LAST_DUE),70
+MIN(previous.HOUR_APPR_PROCESS_START),31
+MIN(previous.MAX(cash.CNT_INSTALMENT)),40
+MIN(previous.MAX(cash.SK_DPD_DEF)),6
+MIN(previous.MAX(installments.AMT_INSTALMENT)),135
+MIN(previous.MAX(installments.NUM_INSTALMENT_NUMBER)),34
+MIN(previous.MAX(installments.NUM_INSTALMENT_VERSION)),5
+MIN(previous.MEAN(cash.SK_DPD_DEF)),21
+MIN(previous.MEAN(installments.AMT_INSTALMENT)),110
+MIN(previous.MEAN(installments.NUM_INSTALMENT_NUMBER)),46
+MIN(previous.MEAN(installments.NUM_INSTALMENT_VERSION)),28
+MIN(previous.RATE_DOWN_PAYMENT),68
+MIN(previous.SUM(cash.CNT_INSTALMENT)),17
+MIN(previous.SUM(cash.MONTHS_BALANCE)),68
+MIN(previous.SUM(cash.SK_DPD_DEF)),3
+MIN(previous.SUM(credit.AMT_BALANCE)),0
+MIN(previous.SUM(credit.AMT_DRAWINGS_ATM_CURRENT)),0
+MIN(previous.SUM(credit.CNT_DRAWINGS_ATM_CURRENT)),2
+MIN(previous.SUM(credit.CNT_DRAWINGS_CURRENT)),0
+MIN(previous.SUM(credit.CNT_INSTALMENT_MATURE_CUM)),0
+MIN(previous.SUM(credit.SK_DPD)),0
+MIN(previous.SUM(installments.AMT_INSTALMENT)),36
+MIN(previous.SUM(installments.DAYS_ENTRY_PAYMENT)),75
+MIN(previous.SUM(installments.NUM_INSTALMENT_NUMBER)),9
+MIN(previous.SUM(installments.NUM_INSTALMENT_VERSION)),12
+MODE(bureau.CREDIT_ACTIVE)_Active,6
+MODE(bureau.CREDIT_ACTIVE)_Closed,3
+MODE(bureau.CREDIT_ACTIVE)_Sold,0
+MODE(bureau.CREDIT_TYPE)_Another type of loan,0
+MODE(bureau.CREDIT_TYPE)_Car loan,1
+MODE(bureau.CREDIT_TYPE)_Consumer credit,3
+MODE(bureau.CREDIT_TYPE)_Credit card,0
+MODE(bureau.CREDIT_TYPE)_Microloan,10
+MODE(bureau.CREDIT_TYPE)_Mortgage,0
+MODE(bureau.MODE(bureau_balance.STATUS))_0,1
+MODE(bureau.MODE(bureau_balance.STATUS))_1,0
+MODE(bureau.MODE(bureau_balance.STATUS))_C,2
+MODE(bureau.MODE(bureau_balance.STATUS))_X,0
+MODE(bureau_balance.STATUS)_0,2
+MODE(bureau_balance.STATUS)_C,2
+MODE(bureau_balance.STATUS)_X,2
+MODE(bureau_balance.bureau.CREDIT_ACTIVE)_Active,1
+MODE(bureau_balance.bureau.CREDIT_ACTIVE)_Closed,1
+MODE(bureau_balance.bureau.CREDIT_TYPE)_Car loan,0
+MODE(bureau_balance.bureau.CREDIT_TYPE)_Consumer credit,1
+MODE(bureau_balance.bureau.CREDIT_TYPE)_Credit card,3
+MODE(cash.previous.CHANNEL_TYPE)_AP+ (Cash loan),6
+MODE(cash.previous.CHANNEL_TYPE)_Channel of corporate sales,0
+MODE(cash.previous.CHANNEL_TYPE)_Contact center,0
+MODE(cash.previous.CHANNEL_TYPE)_Country-wide,6
+MODE(cash.previous.CHANNEL_TYPE)_Credit and cash offices,2
+MODE(cash.previous.CHANNEL_TYPE)_Regional / Local,0
+MODE(cash.previous.CHANNEL_TYPE)_Stone,2
+MODE(cash.previous.NAME_CASH_LOAN_PURPOSE)_Furniture,0
+MODE(cash.previous.NAME_CASH_LOAN_PURPOSE)_Other,0
+MODE(cash.previous.NAME_CASH_LOAN_PURPOSE)_Repairs,3
+MODE(cash.previous.NAME_CASH_LOAN_PURPOSE)_Wedding / gift / holiday,0
+MODE(cash.previous.NAME_CASH_LOAN_PURPOSE)_XAP,0
+MODE(cash.previous.NAME_CASH_LOAN_PURPOSE)_XNA,2
+MODE(cash.previous.NAME_CLIENT_TYPE)_New,16
+MODE(cash.previous.NAME_CLIENT_TYPE)_Refreshed,6
+MODE(cash.previous.NAME_CLIENT_TYPE)_Repeater,3
+MODE(cash.previous.NAME_CONTRACT_TYPE),4
+MODE(cash.previous.NAME_GOODS_CATEGORY)_Audio/Video,4
+MODE(cash.previous.NAME_GOODS_CATEGORY)_Clothing and Accessories,4
+MODE(cash.previous.NAME_GOODS_CATEGORY)_Computers,6
+MODE(cash.previous.NAME_GOODS_CATEGORY)_Construction Materials,3
+MODE(cash.previous.NAME_GOODS_CATEGORY)_Consumer Electronics,2
+MODE(cash.previous.NAME_GOODS_CATEGORY)_Direct Sales,0
+MODE(cash.previous.NAME_GOODS_CATEGORY)_Furniture,3
+MODE(cash.previous.NAME_GOODS_CATEGORY)_Gardening,0
+MODE(cash.previous.NAME_GOODS_CATEGORY)_Jewelry,0
+MODE(cash.previous.NAME_GOODS_CATEGORY)_Mobile,5
+MODE(cash.previous.NAME_GOODS_CATEGORY)_Other,1
+MODE(cash.previous.NAME_GOODS_CATEGORY)_Photo / Cinema Equipment,3
+MODE(cash.previous.NAME_GOODS_CATEGORY)_Sport and Leisure,0
+MODE(cash.previous.NAME_GOODS_CATEGORY)_Tourism,0
+MODE(cash.previous.NAME_GOODS_CATEGORY)_Vehicles,1
+MODE(cash.previous.NAME_GOODS_CATEGORY)_XNA,2
+MODE(cash.previous.NAME_PAYMENT_TYPE)_Cash through the bank,2
+MODE(cash.previous.NAME_PAYMENT_TYPE)_XNA,5
+MODE(cash.previous.NAME_PRODUCT_TYPE)_walk-in,1
+MODE(cash.previous.NAME_SELLER_INDUSTRY)_Connectivity,3
+MODE(cash.previous.NAME_SELLER_INDUSTRY)_Construction,4
+MODE(cash.previous.NAME_SELLER_INDUSTRY)_Consumer electronics,5
+MODE(cash.previous.NAME_SELLER_INDUSTRY)_Furniture,2
+MODE(cash.previous.NAME_SELLER_INDUSTRY)_Industry,4
+MODE(cash.previous.NAME_SELLER_INDUSTRY)_XNA,2
+MODE(cash.previous.NAME_TYPE_SUITE)_Children,2
+MODE(cash.previous.NAME_TYPE_SUITE)_Family,5
+MODE(cash.previous.NAME_TYPE_SUITE)_Other_A,1
+MODE(cash.previous.NAME_TYPE_SUITE)_Other_B,3
+"MODE(cash.previous.NAME_TYPE_SUITE)_Spouse, partner",4
+MODE(cash.previous.NAME_TYPE_SUITE)_Unaccompanied,3
+MODE(cash.previous.NAME_YIELD_GROUP)_high,26
+MODE(cash.previous.NAME_YIELD_GROUP)_low_action,9
+MODE(cash.previous.NAME_YIELD_GROUP)_low_normal,4
+MODE(cash.previous.NAME_YIELD_GROUP)_middle,4
+MODE(cash.previous.PRODUCT_COMBINATION)_Cash Street: high,6
+MODE(cash.previous.PRODUCT_COMBINATION)_Cash Street: low,2
+MODE(cash.previous.PRODUCT_COMBINATION)_Cash Street: middle,1
+MODE(cash.previous.PRODUCT_COMBINATION)_Cash X-Sell: high,8
+MODE(cash.previous.PRODUCT_COMBINATION)_Cash X-Sell: low,9
+MODE(cash.previous.PRODUCT_COMBINATION)_Cash X-Sell: middle,1
+MODE(cash.previous.PRODUCT_COMBINATION)_POS household with interest,3
+MODE(cash.previous.PRODUCT_COMBINATION)_POS household without interest,2
+MODE(cash.previous.PRODUCT_COMBINATION)_POS industry with interest,5
+MODE(cash.previous.PRODUCT_COMBINATION)_POS industry without interest,3
+MODE(cash.previous.PRODUCT_COMBINATION)_POS mobile with interest,5
+MODE(cash.previous.PRODUCT_COMBINATION)_POS mobile without interest,2
+MODE(cash.previous.PRODUCT_COMBINATION)_POS other with interest,3
+MODE(cash.previous.WEEKDAY_APPR_PROCESS_START)_FRIDAY,3
+MODE(cash.previous.WEEKDAY_APPR_PROCESS_START)_MONDAY,12
+MODE(cash.previous.WEEKDAY_APPR_PROCESS_START)_SATURDAY,3
+MODE(cash.previous.WEEKDAY_APPR_PROCESS_START)_SUNDAY,2
+MODE(cash.previous.WEEKDAY_APPR_PROCESS_START)_THURSDAY,3
+MODE(cash.previous.WEEKDAY_APPR_PROCESS_START)_TUESDAY,8
+MODE(cash.previous.WEEKDAY_APPR_PROCESS_START)_WEDNESDAY,6
+MODE(credit.NAME_CONTRACT_STATUS)_Completed,0
+MODE(credit.previous.CHANNEL_TYPE)_AP+ (Cash loan),0
+MODE(credit.previous.CHANNEL_TYPE)_Channel of corporate sales,0
+MODE(credit.previous.CHANNEL_TYPE)_Credit and cash offices,0
+MODE(credit.previous.CHANNEL_TYPE)_Stone,0
+MODE(credit.previous.NAME_CLIENT_TYPE)_New,1
+MODE(credit.previous.NAME_CLIENT_TYPE)_Refreshed,3
+MODE(credit.previous.NAME_SELLER_INDUSTRY)_Clothing,0
+MODE(credit.previous.NAME_SELLER_INDUSTRY)_Connectivity,0
+MODE(credit.previous.NAME_SELLER_INDUSTRY)_Consumer electronics,0
+MODE(credit.previous.NAME_SELLER_INDUSTRY)_Furniture,0
+MODE(credit.previous.NAME_TYPE_SUITE)_Children,1
+MODE(credit.previous.NAME_TYPE_SUITE)_Family,0
+MODE(credit.previous.NAME_TYPE_SUITE)_Other_B,0
+MODE(credit.previous.NAME_TYPE_SUITE)_Unaccompanied,0
+MODE(credit.previous.WEEKDAY_APPR_PROCESS_START)_FRIDAY,2
+MODE(credit.previous.WEEKDAY_APPR_PROCESS_START)_MONDAY,3
+MODE(credit.previous.WEEKDAY_APPR_PROCESS_START)_SATURDAY,2
+MODE(credit.previous.WEEKDAY_APPR_PROCESS_START)_SUNDAY,0
+MODE(credit.previous.WEEKDAY_APPR_PROCESS_START)_THURSDAY,1
+MODE(credit.previous.WEEKDAY_APPR_PROCESS_START)_TUESDAY,0
+MODE(credit.previous.WEEKDAY_APPR_PROCESS_START)_WEDNESDAY,2
+MODE(installments.previous.CHANNEL_TYPE)_AP+ (Cash loan),3
+MODE(installments.previous.CHANNEL_TYPE)_Channel of corporate sales,4
+MODE(installments.previous.CHANNEL_TYPE)_Contact center,1
+MODE(installments.previous.CHANNEL_TYPE)_Country-wide,3
+MODE(installments.previous.CHANNEL_TYPE)_Credit and cash offices,1
+MODE(installments.previous.CHANNEL_TYPE)_Regional / Local,1
+MODE(installments.previous.CHANNEL_TYPE)_Stone,7
+MODE(installments.previous.NAME_CASH_LOAN_PURPOSE)_Furniture,0
+MODE(installments.previous.NAME_CASH_LOAN_PURPOSE)_Repairs,5
+MODE(installments.previous.NAME_CASH_LOAN_PURPOSE)_XAP,0
+MODE(installments.previous.NAME_CASH_LOAN_PURPOSE)_XNA,2
+MODE(installments.previous.NAME_CLIENT_TYPE)_New,2
+MODE(installments.previous.NAME_CLIENT_TYPE)_Refreshed,4
+MODE(installments.previous.NAME_CLIENT_TYPE)_Repeater,0
+MODE(installments.previous.NAME_CONTRACT_TYPE)_Cash loans,7
+MODE(installments.previous.NAME_CONTRACT_TYPE)_Consumer loans,1
+MODE(installments.previous.NAME_GOODS_CATEGORY)_Audio/Video,2
+MODE(installments.previous.NAME_GOODS_CATEGORY)_Auto Accessories,1
+MODE(installments.previous.NAME_GOODS_CATEGORY)_Computers,1
+MODE(installments.previous.NAME_GOODS_CATEGORY)_Consumer Electronics,2
+MODE(installments.previous.NAME_GOODS_CATEGORY)_Mobile,1
+MODE(installments.previous.NAME_GOODS_CATEGORY)_Photo / Cinema Equipment,0
+MODE(installments.previous.NAME_GOODS_CATEGORY)_XNA,0
+MODE(installments.previous.NAME_PAYMENT_TYPE)_Cash through the bank,3
+MODE(installments.previous.NAME_PAYMENT_TYPE)_Non-cash from your account,0
+MODE(installments.previous.NAME_PAYMENT_TYPE)_XNA,1
+MODE(installments.previous.NAME_PRODUCT_TYPE)_walk-in,5
+MODE(installments.previous.NAME_PRODUCT_TYPE)_x-sell,0
+MODE(installments.previous.NAME_SELLER_INDUSTRY)_Connectivity,1
+MODE(installments.previous.NAME_SELLER_INDUSTRY)_Consumer electronics,6
+MODE(installments.previous.NAME_SELLER_INDUSTRY)_XNA,1
+MODE(installments.previous.NAME_YIELD_GROUP)_high,6
+MODE(installments.previous.NAME_YIELD_GROUP)_low_normal,2
+MODE(installments.previous.NAME_YIELD_GROUP)_middle,8
+MODE(installments.previous.PRODUCT_COMBINATION)_Card Street,0
+MODE(installments.previous.PRODUCT_COMBINATION)_Card X-Sell,1
+MODE(installments.previous.PRODUCT_COMBINATION)_Cash Street: high,3
+MODE(installments.previous.PRODUCT_COMBINATION)_Cash Street: low,6
+MODE(installments.previous.PRODUCT_COMBINATION)_Cash Street: middle,2
+MODE(installments.previous.PRODUCT_COMBINATION)_Cash X-Sell: high,5
+MODE(installments.previous.PRODUCT_COMBINATION)_Cash X-Sell: low,5
+MODE(installments.previous.PRODUCT_COMBINATION)_Cash X-Sell: middle,6
+MODE(installments.previous.PRODUCT_COMBINATION)_POS household with interest,2
+MODE(installments.previous.PRODUCT_COMBINATION)_POS household without interest,1
+MODE(installments.previous.PRODUCT_COMBINATION)_POS mobile with interest,1
+MODE(installments.previous.WEEKDAY_APPR_PROCESS_START)_FRIDAY,2
+MODE(installments.previous.WEEKDAY_APPR_PROCESS_START)_MONDAY,4
+MODE(installments.previous.WEEKDAY_APPR_PROCESS_START)_SATURDAY,5
+MODE(installments.previous.WEEKDAY_APPR_PROCESS_START)_SUNDAY,1
+MODE(installments.previous.WEEKDAY_APPR_PROCESS_START)_THURSDAY,3
+MODE(installments.previous.WEEKDAY_APPR_PROCESS_START)_TUESDAY,2
+MODE(installments.previous.WEEKDAY_APPR_PROCESS_START)_WEDNESDAY,5
+MODE(previous.CHANNEL_TYPE)_AP+ (Cash loan),6
+MODE(previous.CHANNEL_TYPE)_Channel of corporate sales,10
+MODE(previous.CHANNEL_TYPE)_Contact center,2
+MODE(previous.CHANNEL_TYPE)_Country-wide,2
+MODE(previous.CHANNEL_TYPE)_Credit and cash offices,3
+MODE(previous.CHANNEL_TYPE)_Regional / Local,1
+MODE(previous.CHANNEL_TYPE)_Stone,12
+MODE(previous.CODE_REJECT_REASON)_HC,12
+MODE(previous.CODE_REJECT_REASON)_LIMIT,5
+MODE(previous.CODE_REJECT_REASON)_SCO,1
+MODE(previous.CODE_REJECT_REASON)_SCOFR,1
+MODE(previous.CODE_REJECT_REASON)_XAP,3
+MODE(previous.FLAG_LAST_APPL_PER_CONTRACT),0
+MODE(previous.NAME_CASH_LOAN_PURPOSE)_Building a house or an annex,0
+MODE(previous.NAME_CASH_LOAN_PURPOSE)_Furniture,0
+MODE(previous.NAME_CASH_LOAN_PURPOSE)_Other,0
+MODE(previous.NAME_CASH_LOAN_PURPOSE)_Purchase of electronic equipment,0
+MODE(previous.NAME_CASH_LOAN_PURPOSE)_Repairs,1
+MODE(previous.NAME_CASH_LOAN_PURPOSE)_Urgent needs,0
+MODE(previous.NAME_CASH_LOAN_PURPOSE)_XAP,0
+MODE(previous.NAME_CASH_LOAN_PURPOSE)_XNA,3
+MODE(previous.NAME_CLIENT_TYPE)_New,3
+MODE(previous.NAME_CLIENT_TYPE)_Refreshed,1
+MODE(previous.NAME_CLIENT_TYPE)_Repeater,1
+MODE(previous.NAME_CONTRACT_STATUS)_Canceled,1
+MODE(previous.NAME_CONTRACT_STATUS)_Refused,23
+MODE(previous.NAME_CONTRACT_TYPE)_Cash loans,1
+MODE(previous.NAME_CONTRACT_TYPE)_Consumer loans,3
+MODE(previous.NAME_CONTRACT_TYPE)_Revolving loans,2
+MODE(previous.NAME_GOODS_CATEGORY)_Audio/Video,1
+MODE(previous.NAME_GOODS_CATEGORY)_Clothing and Accessories,6
+MODE(previous.NAME_GOODS_CATEGORY)_Computers,2
+MODE(previous.NAME_GOODS_CATEGORY)_Construction Materials,3
+MODE(previous.NAME_GOODS_CATEGORY)_Consumer Electronics,2
+MODE(previous.NAME_GOODS_CATEGORY)_Furniture,18
+MODE(previous.NAME_GOODS_CATEGORY)_Gardening,0
+MODE(previous.NAME_GOODS_CATEGORY)_Jewelry,0
+MODE(previous.NAME_GOODS_CATEGORY)_Medical Supplies,0
+MODE(previous.NAME_GOODS_CATEGORY)_Medicine,0
+MODE(previous.NAME_GOODS_CATEGORY)_Mobile,3
+MODE(previous.NAME_GOODS_CATEGORY)_Other,3
+MODE(previous.NAME_GOODS_CATEGORY)_Photo / Cinema Equipment,0
+MODE(previous.NAME_GOODS_CATEGORY)_XNA,1
+MODE(previous.NAME_PAYMENT_TYPE)_Cash through the bank,2
+MODE(previous.NAME_PAYMENT_TYPE)_XNA,5
+MODE(previous.NAME_PORTFOLIO)_Cards,2
+MODE(previous.NAME_PORTFOLIO)_Cash,8
+MODE(previous.NAME_PORTFOLIO)_POS,4
+MODE(previous.NAME_PORTFOLIO)_XNA,0
+MODE(previous.NAME_PRODUCT_TYPE)_XNA,2
+MODE(previous.NAME_PRODUCT_TYPE)_walk-in,4
+MODE(previous.NAME_PRODUCT_TYPE)_x-sell,3
+MODE(previous.NAME_SELLER_INDUSTRY)_Auto technology,1
+MODE(previous.NAME_SELLER_INDUSTRY)_Clothing,0
+MODE(previous.NAME_SELLER_INDUSTRY)_Connectivity,6
+MODE(previous.NAME_SELLER_INDUSTRY)_Construction,1
+MODE(previous.NAME_SELLER_INDUSTRY)_Consumer electronics,3
+MODE(previous.NAME_SELLER_INDUSTRY)_Furniture,3
+MODE(previous.NAME_SELLER_INDUSTRY)_XNA,2
+MODE(previous.NAME_TYPE_SUITE)_Children,1
+MODE(previous.NAME_TYPE_SUITE)_Family,7
+MODE(previous.NAME_TYPE_SUITE)_Other_A,6
+MODE(previous.NAME_TYPE_SUITE)_Other_B,11
+"MODE(previous.NAME_TYPE_SUITE)_Spouse, partner",1
+MODE(previous.NAME_TYPE_SUITE)_Unaccompanied,12
+MODE(previous.NAME_YIELD_GROUP)_XNA,2
+MODE(previous.NAME_YIELD_GROUP)_high,14
+MODE(previous.NAME_YIELD_GROUP)_low_action,6
+MODE(previous.NAME_YIELD_GROUP)_low_normal,6
+MODE(previous.NAME_YIELD_GROUP)_middle,5
+MODE(previous.PRODUCT_COMBINATION)_Card Street,1
+MODE(previous.PRODUCT_COMBINATION)_Card X-Sell,1
+MODE(previous.PRODUCT_COMBINATION)_Cash,1
+MODE(previous.PRODUCT_COMBINATION)_Cash Street: high,6
+MODE(previous.PRODUCT_COMBINATION)_Cash Street: low,0
+MODE(previous.PRODUCT_COMBINATION)_Cash Street: middle,2
+MODE(previous.PRODUCT_COMBINATION)_Cash X-Sell: high,19
+MODE(previous.PRODUCT_COMBINATION)_Cash X-Sell: low,3
+MODE(previous.PRODUCT_COMBINATION)_Cash X-Sell: middle,7
+MODE(previous.PRODUCT_COMBINATION)_POS household with interest,1
+MODE(previous.PRODUCT_COMBINATION)_POS household without interest,0
+MODE(previous.PRODUCT_COMBINATION)_POS industry with interest,3
+MODE(previous.PRODUCT_COMBINATION)_POS industry without interest,0
+MODE(previous.PRODUCT_COMBINATION)_POS mobile with interest,4
+MODE(previous.PRODUCT_COMBINATION)_POS mobile without interest,3
+MODE(previous.WEEKDAY_APPR_PROCESS_START)_FRIDAY,3
+MODE(previous.WEEKDAY_APPR_PROCESS_START)_MONDAY,11
+MODE(previous.WEEKDAY_APPR_PROCESS_START)_SATURDAY,4
+MODE(previous.WEEKDAY_APPR_PROCESS_START)_SUNDAY,4
+MODE(previous.WEEKDAY_APPR_PROCESS_START)_THURSDAY,3
+MODE(previous.WEEKDAY_APPR_PROCESS_START)_TUESDAY,8
+MODE(previous.WEEKDAY_APPR_PROCESS_START)_WEDNESDAY,2
+NAME_CONTRACT_TYPE,48
+NAME_EDUCATION_TYPE_Academic degree,0
+NAME_EDUCATION_TYPE_Higher education,52
+NAME_EDUCATION_TYPE_Incomplete higher,2
+NAME_EDUCATION_TYPE_Lower secondary,19
+NAME_EDUCATION_TYPE_Secondary / secondary special,24
+NAME_FAMILY_STATUS_Civil marriage,6
+NAME_FAMILY_STATUS_Married,50
+NAME_FAMILY_STATUS_Separated,9
+NAME_FAMILY_STATUS_Single / not married,5
+NAME_FAMILY_STATUS_Widow,2
+NAME_HOUSING_TYPE_Co-op apartment,0
+NAME_HOUSING_TYPE_House / apartment,5
+NAME_HOUSING_TYPE_Municipal apartment,5
+NAME_HOUSING_TYPE_Office apartment,0
+NAME_HOUSING_TYPE_Rented apartment,1
+NAME_HOUSING_TYPE_With parents,7
+NAME_INCOME_TYPE_Commercial associate,8
+NAME_INCOME_TYPE_State servant,16
+NAME_INCOME_TYPE_Working,30
+NAME_TYPE_SUITE_Children,1
+NAME_TYPE_SUITE_Family,1
+NAME_TYPE_SUITE_Other_A,0
+NAME_TYPE_SUITE_Other_B,14
+"NAME_TYPE_SUITE_Spouse, partner",4
+NAME_TYPE_SUITE_Unaccompanied,8
+NONLIVINGAPARTMENTS_AVG,31
+NONLIVINGAREA_AVG,83
+OBS_30_CNT_SOCIAL_CIRCLE,62
+OCCUPATION_TYPE_Accountants,2
+OCCUPATION_TYPE_Cleaning staff,4
+OCCUPATION_TYPE_Cooking staff,1
+OCCUPATION_TYPE_Core staff,20
+OCCUPATION_TYPE_Drivers,23
+OCCUPATION_TYPE_High skill tech staff,12
+OCCUPATION_TYPE_Laborers,18
+OCCUPATION_TYPE_Low-skill Laborers,2
+OCCUPATION_TYPE_Managers,2
+OCCUPATION_TYPE_Medicine staff,13
+OCCUPATION_TYPE_Private service staff,0
+OCCUPATION_TYPE_Sales staff,9
+OCCUPATION_TYPE_Secretaries,1
+OCCUPATION_TYPE_Security staff,3
+OCCUPATION_TYPE_Waiters/barmen staff,2
+ORGANIZATION_TYPE_Agriculture,1
+ORGANIZATION_TYPE_Bank,0
+ORGANIZATION_TYPE_Business Entity Type 1,2
+ORGANIZATION_TYPE_Business Entity Type 2,3
+ORGANIZATION_TYPE_Business Entity Type 3,16
+ORGANIZATION_TYPE_Construction,12
+ORGANIZATION_TYPE_Emergency,0
+ORGANIZATION_TYPE_Government,1
+ORGANIZATION_TYPE_Hotel,0
+ORGANIZATION_TYPE_Housing,0
+ORGANIZATION_TYPE_Industry: type 1,0
+ORGANIZATION_TYPE_Industry: type 11,0
+ORGANIZATION_TYPE_Industry: type 12,1
+ORGANIZATION_TYPE_Industry: type 3,4
+ORGANIZATION_TYPE_Industry: type 5,0
+ORGANIZATION_TYPE_Industry: type 9,9
+ORGANIZATION_TYPE_Kindergarten,5
+ORGANIZATION_TYPE_Legal Services,6
+ORGANIZATION_TYPE_Medicine,3
+ORGANIZATION_TYPE_Military,9
+ORGANIZATION_TYPE_Other,6
+ORGANIZATION_TYPE_Police,1
+ORGANIZATION_TYPE_Postal,2
+ORGANIZATION_TYPE_Realtor,6
+ORGANIZATION_TYPE_Restaurant,4
+ORGANIZATION_TYPE_School,7
+ORGANIZATION_TYPE_Security,2
+ORGANIZATION_TYPE_Security Ministries,4
+ORGANIZATION_TYPE_Self-employed,27
+ORGANIZATION_TYPE_Telecom,0
+ORGANIZATION_TYPE_Trade: type 1,0
+ORGANIZATION_TYPE_Trade: type 2,6
+ORGANIZATION_TYPE_Trade: type 3,3
+ORGANIZATION_TYPE_Trade: type 6,0
+ORGANIZATION_TYPE_Transport: type 1,0
+ORGANIZATION_TYPE_Transport: type 2,0
+ORGANIZATION_TYPE_Transport: type 3,8
+ORGANIZATION_TYPE_Transport: type 4,1
+OWN_CAR_AGE,181
+REGION_POPULATION_RELATIVE,163
+REGION_RATING_CLIENT,41
+REG_CITY_NOT_LIVE_CITY,31
+REG_CITY_NOT_WORK_CITY,4
+REG_REGION_NOT_LIVE_REGION,0
+REG_REGION_NOT_WORK_REGION,0
+SUM(bureau.AMT_CREDIT_SUM),118
+SUM(bureau.DAYS_CREDIT_ENDDATE),104
+SUM(bureau.MAX(bureau_balance.MONTHS_BALANCE)),23
+SUM(bureau.MEAN(bureau_balance.MONTHS_BALANCE)),18
+SUM(bureau_balance.bureau.AMT_ANNUITY),37
+SUM(bureau_balance.bureau.AMT_CREDIT_MAX_OVERDUE),18
+SUM(bureau_balance.bureau.AMT_CREDIT_SUM),47
+SUM(bureau_balance.bureau.AMT_CREDIT_SUM_DEBT),41
+SUM(bureau_balance.bureau.AMT_CREDIT_SUM_LIMIT),17
+SUM(bureau_balance.bureau.CNT_CREDIT_PROLONG),2
+SUM(bureau_balance.bureau.CREDIT_DAY_OVERDUE),0
+SUM(bureau_balance.bureau.DAYS_CREDIT_ENDDATE),57
+SUM(cash.CNT_INSTALMENT),33
+SUM(cash.MONTHS_BALANCE),24
+SUM(cash.SK_DPD_DEF),25
+SUM(cash.SK_ID_CURR),63
+SUM(cash.previous.AMT_ANNUITY),102
+SUM(cash.previous.AMT_DOWN_PAYMENT),95
+SUM(cash.previous.DAYS_FIRST_DUE),48
+SUM(cash.previous.DAYS_LAST_DUE),64
+SUM(cash.previous.DAYS_LAST_DUE_1ST_VERSION),62
+SUM(cash.previous.NFLAG_INSURED_ON_APPROVAL),63
+SUM(cash.previous.RATE_DOWN_PAYMENT),56
+SUM(cash.previous.RATE_INTEREST_PRIMARY),10
+SUM(cash.previous.RATE_INTEREST_PRIVILEGED),8
+SUM(credit.AMT_BALANCE),14
+SUM(credit.AMT_CREDIT_LIMIT_ACTUAL),26
+SUM(credit.AMT_DRAWINGS_ATM_CURRENT),22
+SUM(credit.AMT_DRAWINGS_CURRENT),14
+SUM(credit.AMT_DRAWINGS_POS_CURRENT),25
+SUM(credit.CNT_DRAWINGS_ATM_CURRENT),38
+SUM(credit.CNT_DRAWINGS_CURRENT),13
+SUM(credit.CNT_DRAWINGS_OTHER_CURRENT),1
+SUM(credit.SK_DPD_DEF),4
+SUM(credit.previous.AMT_APPLICATION),23
+SUM(credit.previous.DAYS_FIRST_DRAWING),25
+SUM(credit.previous.DAYS_LAST_DUE),65
+SUM(credit.previous.DAYS_TERMINATION),23
+SUM(credit.previous.SELLERPLACE_AREA),50
+SUM(installments.AMT_INSTALMENT),58
+SUM(installments.NUM_INSTALMENT_VERSION),49
+SUM(installments.SK_ID_CURR),55
+SUM(installments.previous.DAYS_FIRST_DUE),50
+SUM(installments.previous.DAYS_LAST_DUE),57
+SUM(installments.previous.DAYS_TERMINATION),54
+SUM(installments.previous.RATE_DOWN_PAYMENT),53
+SUM(previous.AMT_ANNUITY),63
+SUM(previous.AMT_DOWN_PAYMENT),94
+SUM(previous.CNT_PAYMENT),75
+SUM(previous.DAYS_DECISION),69
+SUM(previous.DAYS_FIRST_DRAWING),35
+SUM(previous.DAYS_LAST_DUE),67
+SUM(previous.MAX(cash.CNT_INSTALMENT)),80
+SUM(previous.MAX(cash.MONTHS_BALANCE)),54
+SUM(previous.MAX(cash.SK_ID_CURR)),96
+SUM(previous.MAX(installments.NUM_INSTALMENT_VERSION)),22
+SUM(previous.NFLAG_INSURED_ON_APPROVAL),11
+SUM(previous.RATE_DOWN_PAYMENT),82
+WALLSMATERIAL_MODE_Block,4
+WALLSMATERIAL_MODE_Mixed,3
+WALLSMATERIAL_MODE_Others,3
+WALLSMATERIAL_MODE_Panel,3
+"WALLSMATERIAL_MODE_Stone, brick",7
+WALLSMATERIAL_MODE_Wooden,0
+WEEKDAY_APPR_PROCESS_START_FRIDAY,9
+WEEKDAY_APPR_PROCESS_START_MONDAY,9
+WEEKDAY_APPR_PROCESS_START_SATURDAY,5
+WEEKDAY_APPR_PROCESS_START_SUNDAY,3
+WEEKDAY_APPR_PROCESS_START_THURSDAY,2
+WEEKDAY_APPR_PROCESS_START_TUESDAY,11
+WEEKDAY_APPR_PROCESS_START_WEDNESDAY,3
+YEARS_BEGINEXPLUATATION_AVG,130
+YEARS_BUILD_AVG,73
