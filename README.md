@@ -4,7 +4,7 @@
 L’entreprise "Prêt à dépenser" souhaite mettre en œuvre un outil de “scoring crédit” pour calculer la probabilité qu’un client rembourse son crédit, puis classifie la demande en crédit accordé ou refusé. Elle souhaite donc développer un algorithme de classification en s’appuyant sur des sources de données variées (données comportementales, données provenant d'autres institutions financières, etc.).
 
 ## Mission  
-Les missions de ce projet sont :
+Les missions de ce projet sont :     
 •	Construire un modèle de scoring qui donnera une prédiction sur la probabilité de faillite d'un client de façon automatique.    
 •	Construire un dashboard interactif à destination des gestionnaires de la relation clientèle permettant d'interpréter les prédictions faites par le modèle.    
 ## Données
@@ -48,8 +48,8 @@ o	 Une métrique métier qui consiste à calculer le gain pour limiter les perte
 -	Importance globale et locale des caractéristiques dans la décision du modèle   
 -	Comparaison du client avec d’autres clients au choix dans un menu déroulant, un groupe des clients ou seulement les clients similaires :      
 
-*Case à cocher : Représentation en boxplot des clients selon leur classe (crédit accepté ou rejeté) et place le client selon la couleur de sa classe (rouge ou vert)    
-Case à cocher : Une analyse bi-variée interactive des caractéristiques à choisir dans 2 listes déroulantes et plaçant le client sur la courbe*    
+-*Case à cocher : Représentation en boxplot des clients selon leur classe (crédit accepté ou rejeté) et place le client selon la couleur de sa classe (rouge ou vert)    
+-Case à cocher : Une analyse bi-variée interactive des caractéristiques à choisir dans 2 listes déroulantes et plaçant le client sur la courbe*    
 
 ### Lien de vidéo de démonstration : https://www.youtube.com/watch?v=phG7ouM1oGg&ab_channel=maychoueib       
 
