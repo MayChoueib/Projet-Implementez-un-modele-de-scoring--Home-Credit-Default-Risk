@@ -52,7 +52,7 @@ Ce notebook contient le code de la modélisation du prétraitement des données 
 -Case à cocher : Une analyse bi-variée interactive des caractéristiques à choisir dans 2 listes déroulantes et plaçant le client sur la courbe*    
 
 ### Lien de vidéo de démonstration : https://www.youtube.com/watch?v=phG7ouM1oGg&ab_channel=maychoueib       
-
+<p align="center"><img src="images/screenshotdemo.jpg" width="600" height="400" /></p>
 Sources :     
 •	[1] Lien téléchargement des données : https://www.kaggle.com/c/home-credit-default-risk/data    
 •	[2] Lien Kernel Kaggle utilisé : https://www.kaggle.com/willkoehrsen/start-here-a-gentle-introduction     
