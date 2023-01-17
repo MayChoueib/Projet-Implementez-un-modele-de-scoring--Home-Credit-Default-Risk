@@ -25,9 +25,9 @@ Ce notebook contient le code de la modélisation du prétraitement des données 
 •	Le déséquilibre des classes est pris en compte dans l’entraînement du modèle via : l'hyperparamètre class_weight = 'balanced', SMOTE (création des données synthétiques à partir des données existantes = oversampling), ...       
 •	Optimisation des hyperparamètres en gridsearch     
 •	Fine tuning des hyperparamètres du modèle le plus performant (lightGBM) via hyperopt     
-•	Les métriques utilisées :     
-   o	AUC , communément utilisé avec les classifieurs binaires non équilibrés.     
-   o	Une métrique métier qui consiste à calculer le gain pour limiter les pertes financières     
+•	Les métriques utilisées :   
+- AUC , communément utilisé avec les classifieurs binaires non équilibrés.     
+- Une métrique métier qui consiste à calculer le gain pour limiter les pertes financières     
 •	Interepreatation gloable et locale via SHAP (SHapley Additive exPlanations)    
 •	Les fonctions utilisées sont disponibles dans le module p7_functions    
 ### 2. Partie API (api-heroku)   
