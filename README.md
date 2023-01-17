@@ -29,6 +29,8 @@ Ce notebook contient le code de la modélisation du prétraitement des données 
   -- AUC , communément utilisé avec les classifieurs binaires non équilibrés.     
   -- Une métrique métier qui consiste à calculer le gain pour limiter les pertes financières     
 •	Interprétation gloable et locale via SHAP (SHapley Additive exPlanations)    
+<p align="center"><img src="images/shap-local.png" width="600" height="400" /></p>
+
 •	Les fonctions utilisées sont disponibles dans le module p7_functions    
 ### 2. Partie API (api-heroku)   
 •	Réalisé avec Flask et hébergé par Heroku    
