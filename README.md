@@ -11,7 +11,7 @@ Les missions de ce projet sont :
 Le jeu de données est issu d’une compétition Kaggle organisée en août 2018 dont l’objectif est de prédire les incidents de paiements dans le cadre de l’octroi de prêts bancaires.  
 L'organigramme ci-dessous présente l'ensemble des tables à notre disposition, leur contenu ainsi que les liens qui les relient :
 Voici le schéma descriptif des données :   
-<img src="images/schema_datas.jpg" width="600" height="200" />     
+<p align="center"><img src="images/schema_datas.jpg" width="600" height="400" /></p>
 
 Au total nous avons 10 tables à notre disposition. En plus des 8 tables de l'organigramme ci-dessous (dont 2 application/train/test sont illustrées avec la même table), il y a la table (HomeCredit_columns_description) qui décrit toutes les variables et qui sont 219 au total. La table (sample_submission) illustre le format pour l'envoi des résultats de la compétition 
 
